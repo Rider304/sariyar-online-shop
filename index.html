@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="bn">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Sariyar Online Shop - Shop smart, live better.">
+  <title>Sariyar Online Shop</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="topbar">
+    <a class="brand" href="#"><span class="brand-mark">S</span><span>SARIYAR <small>ONLINE SHOP</small></span></a>
+    <button class="menu-btn" id="menuBtn" aria-label="মেনু">☰</button>
+    <nav id="nav">
+      <a href="#home">হোম</a><a href="#products">পণ্য</a><a href="#about">আমাদের সম্পর্কে</a><a href="#contact">যোগাযোগ</a>
+    </nav>
+    <a class="cart-link" href="#products">শপিং শুরু করুন <span>→</span></a>
+  </header>
+
+  <main>
+    <section class="hero" id="home">
+      <div class="hero-copy">
+        <p class="eyebrow">WELCOME TO SARIYAR</p>
+        <h1>আপনার পছন্দের কেনাকাটা,<br><em>এখন আরও সহজ।</em></h1>
+        <p class="hero-desc">দৈনন্দিন প্রয়োজনের পণ্য বেছে নিন সহজে। অর্ডার করুন WhatsApp-এ, কথা বলুন সরাসরি আমাদের সঙ্গে।</p>
+        <a class="primary-btn" href="#products">পণ্য দেখুন <span>→</span></a>
+        <div class="trust-row"><span>✓ সহজ অর্ডার</span><span>✓ সরাসরি যোগাযোগ</span><span>✓ ক্যাশ অন ডেলিভারি*</span></div>
+        <small class="fine-print">*ডেলিভারি ও পেমেন্টের শর্ত অর্ডার নিশ্চিত করার সময় জানানো হবে।</small>
+      </div>
+      <div class="hero-art">
+        <div class="art-circle"></div>
+        <div class="art-card card-one"><span>NEW</span><b>পছন্দের<br>কালেকশন</b><small>SHOP THE LATEST</small></div>
+        <div class="art-card card-two">S<span>✦</span></div>
+        <div class="art-tag">SMART<br>SHOPPING</div>
+      </div>
+    </section>
+
+    <section class="benefits">
+      <div><b>01</b><span><strong>সহজ অর্ডার</strong><small>WhatsApp-এ সরাসরি অর্ডার</small></span></div>
+      <div><b>02</b><span><strong>সহযোগিতা</strong><small>প্রয়োজনে আমাদের সঙ্গে কথা বলুন</small></span></div>
+      <div><b>03</b><span><strong>নতুন পণ্য</strong><small>নিয়মিত পণ্য যোগ হবে</small></span></div>
+    </section>
+
+    <section class="products-section" id="products">
+      <div class="section-heading"><div><p class="eyebrow">OUR COLLECTION</p><h2>জনপ্রিয় পণ্য</h2></div><p>পণ্য নির্বাচন করে অর্ডার করুন</p></div>
+      <div class="filters" id="filters"></div>
+      <div class="product-grid" id="productGrid"></div>
+    </section>
+
+    <section class="about" id="about">
+      <div class="about-icon">S</div><div><p class="eyebrow">ABOUT OUR SHOP</p><h2>Sariyar Online Shop</h2><p>আমাদের লক্ষ্য হলো সহজ, পরিষ্কার ও স্বচ্ছভাবে অনলাইনে পণ্য কেনাকাটার সুযোগ তৈরি করা। পণ্য, দাম ও ডেলিভারির বিস্তারিত জানতে আমাদের সঙ্গে যোগাযোগ করুন।</p></div>
+    </section>
+
+    <section class="contact" id="contact"><div><p class="eyebrow">NEED HELP?</p><h2>কোনো প্রশ্ন আছে?</h2><p>পণ্য বা অর্ডার সম্পর্কে জানতে WhatsApp-এ যোগাযোগ করুন।</p></div><a class="primary-btn" id="contactBtn" href="#" target="_blank" rel="noopener">WhatsApp-এ যোগাযোগ <span>→</span></a></section>
+  </main>
+
+  <footer><a class="brand footer-brand" href="#"><span class="brand-mark">S</span><span>SARIYAR <small>ONLINE SHOP</small></span></a><p>© <span id="year"></span> Sariyar Online Shop. All rights reserved.</p><small>Made for simple and smart shopping.</small></footer>
+  <script src="config.js"></script><script src="products.js"></script><script src="app.js"></script>
+</body>
+</html>
